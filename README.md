@@ -26,7 +26,7 @@ Ensure you have the following installed on your machine:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/browser-test.git
+    git clone https://github.com/keiner5212/browser-test.git
     cd browser-test
     ```
 
@@ -57,18 +57,7 @@ npm run test:firefox
 npm run test:safari
 ```
 
-### Example Test
-
-Here is an example test to get you started. This test navigates to a specified URL and pauses the browser, allowing you to inspect the page manually:
-
-```javascript
-import { test } from "@playwright/test";
-
-test("test browser", async ({ page }) => {
-	await page.goto("http://localhost:5173/");
-	await page.pause();
-});
-```
+### Test
 
 `note`: Check the test filein the `tests` folder to change the URL to whatever you want to test.
 
